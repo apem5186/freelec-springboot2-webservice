@@ -41,6 +41,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.junit.platform/junit-platform-commons
     implementation group: 'org.junit.platform', name: 'junit-platform-commons', version: '1.8.2'
     testImplementation('org.springframework.security:spring-security-test')
+    implementation('org.mariadb.jdbc:mariadb-java-client')
 
 
 }
