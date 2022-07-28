@@ -4,6 +4,7 @@ jdk:
 
 # access 권한 추가
 before_install:
+  - cd freelec-springboot2-webservice/
   - chmod +x gradlew
 
 # 프로젝트 이동 경로
