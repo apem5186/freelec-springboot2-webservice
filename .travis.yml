@@ -45,7 +45,7 @@ deploy:
     local_dir: deploy # 앞에서 생성한 deploy 디렉토리를 지정한다, 해당 위치의 파일들만 S3로 전송한다.
     wait-until-deployed: true
 
-  - provider: code deploy
+  - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY  # Travis repo settings에 설정된 값
     secret_access_key: $AWS_SECRET_KEY  # Travis repo settings에 설정된 값
 
