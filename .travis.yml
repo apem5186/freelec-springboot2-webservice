@@ -7,10 +7,6 @@ before_install:
   - cd freelec-springboot2-webservice/
   - chmod +x gradlew
 
-# 프로젝트 이동 경로
-before_script:
-  - cd freelec-springboot2-webservice/
-
 # 오직 master 브랜치에 push될 때만 Travis CI를 수행
 branches:
   only:
