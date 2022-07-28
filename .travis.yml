@@ -2,18 +2,19 @@ language: java
 jdk:
   - openjdk8
 
-# 오직 master 브랜치에 push될 때만 Travis CI를 수행
-branches:
-  only:
-    - master
-
 # 프로젝트 이동 경로
 before_script:
   - cd freelec-springboot2-webservice/
 
 # access 권한 추가
 before_install:
-  - chmod +x ./gradlew
+  - chmod +x gradlew
+
+# 오직 master 브랜치에 push될 때만 Travis CI를 수행
+branches:
+  only:
+    - master
+
 
 # Travis CI 서버의 Home
 # gradle을 통해 의존성을 받게 되면 이를 해당 디렉토리에 캐시하여, 같은 의존성은
