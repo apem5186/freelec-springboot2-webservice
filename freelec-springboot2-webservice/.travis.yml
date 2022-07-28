@@ -17,6 +17,7 @@ before_install:
 cache:
   directories:
     - '$HOME/.m2/repository'
+    - '$HOME/app/step1/freelec-springboot2-webservice'
     - '$HOME/.gradle'
 
 # master 브랜치에 푸시되었을 때 수행하는 명령어
