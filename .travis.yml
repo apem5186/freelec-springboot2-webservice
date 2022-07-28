@@ -4,7 +4,7 @@ jdk:
 
 # 프로젝트 이동 경로
 before_script:
-  - cd freelec-springboot2-webservice/
+  - cd freelec-springboot2-webservice/freelec-springboot2-webservice/
 
 # access 권한 추가
 before_install:
